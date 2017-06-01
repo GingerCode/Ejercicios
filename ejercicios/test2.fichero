@@ -1,0 +1,13 @@
+// Mostrar en consola números del 1 al 100. Si son múltiplos de 3 mostrar la palabra Ginger y si son múltiplos de 5 mostrar la palabra Buzz. Si
+// el número es múltiplo tanto de 3 como de 5 mostrar GingerBuzz.
+@num = 0
+repetir 100
+@num = @num +1
+si @num %3 == 0 && @num %5 == 0
+mostrar "GingerBuzz"
+si @num %5 == 0
+	mostrar "Buzz"
+pero si @num %3 == 0
+	mostrar "Ginger"
+si no
+mostrar @num
