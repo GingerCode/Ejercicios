@@ -1,0 +1,8 @@
+// escribir un programa que lea un numero entero e imprima su valor absoluto
+
+definir @numero = 0
+mostrar "¡Introduce un numero para calcular su valor absoluto!"
+pedir @numero
+si @numero < 0
+	@numero = @numero*-1
+mostrar @numero
